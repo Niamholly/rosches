@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+	--font-serif: "Cormorant Garamond", "Times New Roman", serif;
+	--font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+	--font-display: "Bodoni Moda", "Times New Roman", serif;
+
+	--color-paper: #f3efe7;
+	--color-ink: #17130f;
+	--color-ink-soft: #46403a;
+	--color-line: #cbc2b2;
+}
+
+body {
+	background-color: var(--color-paper);
+	color: var(--color-ink);
+	font-family: var(--font-sans);
+}
